@@ -7,6 +7,7 @@ import { EditorComponent } from './editor/editor.component';
 import { LeftButtonsComponent } from './left-buttons/left-buttons.component';
 import { RightButtonsComponent } from './right-buttons/right-buttons.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
