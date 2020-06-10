@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { EditorComponent } from './editor/editor.component';
 import { LeftButtonsComponent } from './left-buttons/left-buttons.component';
 import { RightButtonsComponent } from './right-buttons/right-buttons.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { RightButtonsComponent } from './right-buttons/right-buttons.component';
     NavbarComponent,
     EditorComponent,
     LeftButtonsComponent,
-    RightButtonsComponent
+    RightButtonsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule
