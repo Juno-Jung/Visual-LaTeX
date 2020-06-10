@@ -1,0 +1,25 @@
+{
+  "name": "Visual-LaTeX",
+  "version": "1.0.0",
+  "description": "Choose a name for your project. Don’t worry, it doesn’t need to be fancy, it’s just a way to identify it (e.g. \"Hipstacam\", or \"Woofie\").",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juno-Jung/Visual-LaTeX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juno-Jung/Visual-LaTeX/issues"
+  },
+  "homepage": "https://github.com/Juno-Jung/Visual-LaTeX#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0"
+  }
+}
