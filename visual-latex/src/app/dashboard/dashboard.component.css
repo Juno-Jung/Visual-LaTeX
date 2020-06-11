@@ -1,0 +1,17 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: burlywood;
+}
+
+p {
+  display: flex;
+  margin: 3rem;
+}
+
+.dashboard__editor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

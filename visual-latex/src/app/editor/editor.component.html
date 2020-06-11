@@ -1,1 +1,3 @@
-<p>editor works!</p>
+<ckeditor [editor]="Editor" [(ngModel)]="model.editorData"></ckeditor>
+
+<ng-katex-paragraph [paragraph]="model.editorData"></ng-katex-paragraph>
