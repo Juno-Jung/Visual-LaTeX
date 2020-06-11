@@ -11,6 +11,7 @@ import { RightButtonsComponent } from './right-buttons/right-buttons.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
     EditorComponent,
     LeftButtonsComponent,
     RightButtonsComponent,
-    DashboardComponent
+    DashboardComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
