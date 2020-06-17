@@ -1,0 +1,12 @@
+.container__button {
+  display: flex;
+}
+
+.button__math {
+  display: flex;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px -1px black;
+}

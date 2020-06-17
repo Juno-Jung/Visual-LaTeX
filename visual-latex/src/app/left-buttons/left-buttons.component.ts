@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-left-buttons',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftButtonsComponent implements OnInit {
 
-  constructor() { }
+  @Output() button = new EventEmitter<string[]>();
+  faCoffee = faCoffee;
 
-  ngOnInit(): void {
+  constructor () { }
+
+  ngOnInit (): void {
   }
+
+  insertText (str: string, type: string): void {
+    this.button.emit([str, type]);
+  }
+
 
 }

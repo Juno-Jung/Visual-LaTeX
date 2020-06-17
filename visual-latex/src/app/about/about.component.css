@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #e0a96d;
+  padding: 1rem;
+}
+
+p {
+  display: flex;
+  margin: 3rem;
+}
+

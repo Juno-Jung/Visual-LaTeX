@@ -2,16 +2,21 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: aqua;
+  background-color: #ddc4a5;
 }
 
-.navbar__button {
+.navbar__link {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; 
+  color: #fafafa;
   margin: 1rem;
   padding: 10px 15px;
-  box-shadow: 0 0 10px -1px black;
+  font-weight: 600;
+  font-size: 16pt;
 }
 
-/* Temporary Logo placeholder */
+.navbar__link:hover {
+  text-decoration: underline;
+}
 
 .navbar__logo {
   display: flex;

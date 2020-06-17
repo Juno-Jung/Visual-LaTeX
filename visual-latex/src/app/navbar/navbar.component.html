@@ -1,20 +1,23 @@
 <div class="navbar">
   <div class="navbar__logo">
-    VISUAL LATEX
+    <img src="./../../assets/LaTeX_logo.svg" alt="LaTeX Logo" width="72" height ="30">
   </div>
-  <button class="navbar__button">
-    Document
-  </button>
-  <button class="navbar__button">
-    Slide
-  </button>
-  <button class="navbar__button">
-    Presentation
-  </button>
-  <button class="navbar__button">
+  <div class="navbar__link" (click)="onClick(class.ARTICLE)" routerLink="/dashboard/article">
     Article
-  </button>
-  <button class="navbar__button">
+  </div>
+  <div class="navbar__link" (click)="onClick(class.SLIDES)" routerLink="/dashboard/slides">
+    Slides
+  </div>
+  <div class="navbar__link" (click)="onClick(class.BEAMER)" routerLink="/dashboard/beamer">
+    Beamer
+  </div>
+  <div class="navbar__link" (click)="onClick(class.BOOK)" routerLink="/dashboard/book">
+    Book
+  </div>
+  <div class="navbar__link" (click)="onClick(class.LETTER)" routerLink="/dashboard/letter">
+    Letter
+  </div>
+  <div class="navbar__link" (click)="onAbout()" routerLink="/about">
     About
-  </button>
+  </div>
 </div>
