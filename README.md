@@ -20,8 +20,4 @@ Latex-Online API
 ## Installation
 
 1. Clone the repository https://github.com/Juno-Jung/SteamWreck onto your local computer.
-2. Run npm install in the client folder.
-3. Run npm install in the server folder.
-4. Create an .env file in your server root folder with the environment variables shown below.
-5. Run nodemon in the server root folder.
-6. Run npm start in the client folder.
+2. Enter the visual-latex folder and run <code>ng serve -o</code>.
