@@ -19,5 +19,5 @@ Latex-Online API
 
 ## Installation
 
-1. Clone the repository https://github.com/Juno-Jung/SteamWreck onto your local computer.
+1. Clone the repository https://github.com/Juno-Jung/Visual-LaTeX.git onto your local computer.
 2. Enter the visual-latex folder and run <code>ng serve -o</code>.
