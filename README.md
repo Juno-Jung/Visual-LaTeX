@@ -14,7 +14,7 @@ Created by: Juno Jung
 
 ### Front End
 
-Angular\
+Angular\  
 Latex-Online API
 
 ## Installation
