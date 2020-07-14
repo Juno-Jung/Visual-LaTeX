@@ -8,6 +8,7 @@ Created by: Juno Jung
 
 ## Screenshots
 
+![Visual LaTeX Logo](/assets/VL_Logo_01.png?raw=true "Visual LaTeX Logo")
 ![Visual LaTeX](/assets/Visual-LaTeX.png?raw=true "Visual LaTeX")
 
 ## Tech Stack
